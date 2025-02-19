@@ -11,3 +11,9 @@
   "license": "ISC",
   "type": "commonjs"
 }
+
+{
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  }
+}
