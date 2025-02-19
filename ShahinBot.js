@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf');
-require('dotenv').config(); // لتحميل المتغيرات البيئية من ملف .env
+// require('dotenv').config(); // لتحميل المتغيرات البيئية من ملف .env
 
 // استبدل 'YOUR_BOT_TOKEN' بالرمز الذي حصلت عليه من BotFather
 const bot = new Telegraf(process.env.BOT_TOKEN);
