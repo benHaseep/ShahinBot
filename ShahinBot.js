@@ -15,7 +15,9 @@ bot.start((ctx) => {
 // التعامل مع الرسائل الواردة
 bot.on('message', async (ctx) => {
     try {
-        if (ctx.message.text || ctx.message.photo || ctx.message.video || ctx.message.sticker) {
+        //if (ctx.message.text || ctx.message.photo || ctx.message.video || ctx.message.sticker) {
+        if (ctx.message.text) {
+        
             // إرسال الرسالة إلى المالك
             await ctx.forwardMessage(ownerId);
 
